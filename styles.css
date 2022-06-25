@@ -45,7 +45,7 @@ nav ul li a {
     min-width: 1000px;
     margin: auto;
     height: 25rem;
-    padding: ;
+    padding: 0;
     background: #1F2937;
     display: flex;
     justify-content:center;
@@ -75,7 +75,7 @@ nav ul li a {
 
 .button {
     background-color: #3882F6;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     padding: 5px 30px;
     color: white;
@@ -87,6 +87,7 @@ nav ul li a {
     padding: 2rem;
     margin-bottom: 2rem;
     font-size: 36px;
+    font-weight: 800;
     color: #1F2937;
 }
 
@@ -115,7 +116,7 @@ nav ul li a {
 }
 
 .container2 {
-    padding: 15rem;
+    padding: 10rem 30rem 5rem ;
     background-color: #E5E7EB;
     display: flexbox;
     align-items: center;
@@ -137,4 +138,42 @@ nav ul li a {
     font-size: 24px;
     font-weight: 800;
     color: #1F2937;
+}
+
+.container3 {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 50rem;
+    height: 8rem;
+    background-color:#3882F6;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+.upper-text {
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.lower-text{
+    margin-top: -20px;
+}
+
+.sign-up {
+    border-radius: 5px;
+    border: 1px solid white ;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 8500;
+    padding: 5px 30px;
 }
